@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Merriweather+Sans:wght@600&family=Nanum+Gothic&family=Open+Sans:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.all{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(54, 53, 53);
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url('header-image.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+nav{
+    height: 100px;
+    padding-top: 25px;
+    display: flex;
+    margin: 0 20px;
+    justify-content: space-between;
+}
+.lang{
+    padding: 5px 15px;
+    width: auto;
+    height: 100%;
+    border-radius: 4px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid gray;
+    margin-right: 20px;
+    display: flex;
+}
+.lang i{
+    margin: 0 5px;
+}
+.lang select{
+    background-color: transparent;
+    border: none;
+    color: white;
+    
+}
+.btn2{
+    background-color: red;
+    border: none;
+    padding: 5px 17px;
+}
+nav .left-side img{
+    width: 150px;
+    cursor: pointer;
+    
+}
+nav .right-side .buttons{
+    display: flex;
+}
+.head-search{
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+    padding-bottom: 15vh;
+    margin-top: 170px;
+}
+.head-search .heading h1{
+    font-size:50px;
+    font-weight: 900;
+    line-height: 3.5rem;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.head-search .para1 p{
+    margin-top: 20px;
+    font-size:1.3rem ;
+    
+}
+.email-s{
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.email-s input{
+    height: 50px;
+    width: 368px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid rgb(158, 152, 152);
+    margin-right: 10px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+.email-s button{
+    height: 50px;
+    width: 180px;
+    border-radius: 4px;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+}
+.get:hover{
+    background-color: rgb(216, 5, 5);
+}
+.body-back{
+    background-color: rgb(0, 0, 0);
+    margin-top: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+.body-back .container{
+    justify-content: center;
+    align-items: center;
+    
+}
+.main{
+    margin-top: 5px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.main .head-para{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .head-para div{
+    width: 80%;
+}
+.main .head-para h1{
+    font-size: 2.4rem;
+    font-weight: 900;
+}
+.main .head-para p{
+    font-size: 1.3rem;
+}
+
+.main .img{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.main .img img{
+    width: 550px;
+}
+
+/* Frequently Asked Questions section*/
+
+.main2{
+    margin-top: 5px;
+    width: 100%;
+    height: 600px;
+    padding: 0;  
+}
+.que-section{
+    width: 100%;
+    height: 100%;
+}
+.main2 h2{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.main2 .item{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(51, 50, 50);
+    margin: auto;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+.main2 .item:hover{
+    background-color: rgb(77, 77, 77);
+    cursor: pointer;
+}
+.main2 .item p{
+    margin: 0;
+    font-size: 20px;
+}
+.main2 .item i{
+    font-size: 35px;
+}
+
+.buttom-email{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+}
+
+footer{
+    
+    height: auto;
+    width: 100%;
+    padding-top: 50px;
+    background-color: rgb(0, 0, 0);
+    
+}
+.foot p{
+    color: rgb(174, 173, 173);
+    margin-left: 30px;
+}
+
+.contact-list{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    
+
+}
+.contact-list ul{
+    margin-right: 80px;
+}
+.contact-list ul li{
+    list-style: none;
+    line-height: 35px;
+
+}
+.foot a{
+    color: rgb(174, 173, 173);
+}
+
+.foot-b{
+    margin-left: 60px;
+}
+
+.last-net-p{
+    margin-top: 20px;
+    font-size: 0.89;
+    padding-bottom: 30px;
+}
